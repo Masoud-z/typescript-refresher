@@ -1,16 +1,11 @@
-function add(n1, n2) {
-    return n1 + n2;
+var userInput;
+var userName;
+userInput = 5;
+userName = "Masoud";
+if (typeof userInput === "string") {
+    userName = userInput;
 }
-function printResult(num) {
-    console.log(num);
+function generateError(message, code) {
+    throw { message: message, errorCode: code };
 }
-console.log(printResult(add(23, 21)));
-// let combinedValue: Function;
-var combinedValues;
-combinedValues = add;
-console.log(combinedValues(4, 3));
-function addAndHandle(n1, n2, cb) {
-    var result = n1 + n2;
-    cb(result);
-}
-addAndHandle(12, 21, printResult);
+generateError("Some Error has happened", 500);
