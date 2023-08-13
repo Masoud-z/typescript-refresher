@@ -2,6 +2,7 @@ var person = {
     name: "Masoud",
     age: 27,
     hubbies: ["Sports", "Movies"],
+    role: [2, "Front-end Developer"],
 };
 var favoriteActivities;
 favoriteActivities = [
