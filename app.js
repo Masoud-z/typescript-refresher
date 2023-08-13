@@ -1,8 +1,15 @@
+var Access;
+(function (Access) {
+    Access[Access["ADMIN"] = 0] = "ADMIN";
+    Access[Access["AUTHOR"] = 1] = "AUTHOR";
+    Access[Access["READ_ONLY"] = 2] = "READ_ONLY";
+})(Access || (Access = {}));
 var person = {
     name: "Masoud",
     age: 27,
     hubbies: ["Sports", "Movies"],
     role: [2, "Front-end Developer"],
+    access: Access.ADMIN,
 };
 var favoriteActivities;
 favoriteActivities = [

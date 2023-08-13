@@ -1,13 +1,21 @@
+enum Access {
+  ADMIN,
+  AUTHOR,
+  READ_ONLY,
+}
+
 const person: {
   name: string;
   age: number;
   hubbies: string[];
   role: [number, string];
+  access: Access;
 } = {
   name: "Masoud",
   age: 27,
   hubbies: ["Sports", "Movies"],
   role: [2, "Front-end Developer"],
+  access: Access.ADMIN,
 };
 
 let favoriteActivities: string[];
