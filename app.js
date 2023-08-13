@@ -1,24 +1,14 @@
-var Access;
-(function (Access) {
-    Access[Access["ADMIN"] = 0] = "ADMIN";
-    Access[Access["AUTHOR"] = 1] = "AUTHOR";
-    Access[Access["READ_ONLY"] = 2] = "READ_ONLY";
-})(Access || (Access = {}));
-var person = {
-    name: "Masoud",
-    age: 27,
-    hubbies: ["Sports", "Movies"],
-    role: [2, "Front-end Developer"],
-    access: Access.ADMIN,
-};
-var favoriteActivities;
-favoriteActivities = [
-    "Playing Video Games",
-    "Hanging out with friends",
-    "Netflix and chill",
-];
-console.log(person.name);
-for (var _i = 0, _a = person.hubbies; _i < _a.length; _i++) {
-    var hobby = _a[_i];
-    console.log(hobby);
+function combine(input1, input2) {
+    var result;
+    if (typeof input1 === "number" && typeof input2 === "number") {
+        result = input1 + input2;
+    }
+    else {
+        result = input1.toString() + input2.toString();
+    }
+    return result;
 }
+var combinedNumbers = combine(20, 30);
+console.log(combinedNumbers);
+var combinedNames = combine("Masoud", "Ghazal");
+console.log(combinedNames);
