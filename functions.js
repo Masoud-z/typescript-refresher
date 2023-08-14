@@ -2,9 +2,9 @@
 function add(n1, n2) {
     return n1 + n2;
 }
-function printResult(num) {
+const printResult = (num) => {
     console.log(num);
-}
+};
 console.log(printResult(add(23, 21)));
 // let combinedValue: Function;
 let combinedValues;

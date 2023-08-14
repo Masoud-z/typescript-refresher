@@ -1,5 +1,5 @@
 "use strict";
-function add(n1, n2, showResult, phrase) {
+function addWithLog(n1, n2, showResult, phrase) {
     const result = n1 + n2;
     if (showResult) {
         console.log(phrase + result);
@@ -10,6 +10,6 @@ function add(n1, n2, showResult, phrase) {
 }
 const number1 = 4;
 const number2 = 12;
-const printResult = true;
+const shouldPrintResult = true;
 const resultPrase = "Result is: ";
-add(number1, number2, printResult, resultPrase);
+addWithLog(number1, number2, shouldPrintResult, resultPrase);
