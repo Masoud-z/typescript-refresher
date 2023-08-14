@@ -13,3 +13,4 @@ const number2 = 12;
 const shouldPrintResult = true;
 const resultPrase = "Result is: ";
 addWithLog(number1, number2, shouldPrintResult, resultPrase);
+//# sourceMappingURL=basics.js.map

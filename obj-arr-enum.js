@@ -22,3 +22,4 @@ console.log(person.name);
 for (const hobby of person.hubbies) {
     console.log(hobby);
 }
+//# sourceMappingURL=obj-arr-enum.js.map

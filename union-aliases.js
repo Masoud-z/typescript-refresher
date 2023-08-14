@@ -16,3 +16,4 @@ const combinedStringNumbers = combine("20", "30", "as-number");
 console.log(combinedStringNumbers);
 const combinedNames = combine("Masoud", "Ghazal", "as-text");
 console.log(combinedNames);
+//# sourceMappingURL=union-aliases.js.map

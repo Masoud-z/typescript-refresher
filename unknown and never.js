@@ -10,3 +10,4 @@ function generateError(message, code) {
     throw { message: message, errorCode: code };
 }
 generateError("Some Error has happened", 500);
+//# sourceMappingURL=unknown%20and%20never.js.map
